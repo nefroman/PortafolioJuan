@@ -1,0 +1,38 @@
+@import "variables";
+
+
+
+.grid {
+  
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 15% 15%; 
+    background: #FFFFFF;
+    border-radius: 12px;
+    
+
+    .grid-imagen img {
+        width: 351px;
+        height: auto;
+        border-radius: 5%;
+      
+    }
+
+    .grid-imagen {
+        grid-row: 1 / 2;
+    }
+
+    .grid-contacto .grid-contacto-info-nombre h1 {
+        width: auto;
+        height: 29px;
+        font-family: $fuente1;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        color: #4F4F4F;
+
+    } 
+
+    
+}

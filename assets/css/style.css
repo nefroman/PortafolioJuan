@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px, 20px, 20px, 0px;
+  background-color: lightgray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 15% 15%;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+.grid .grid-imagen img {
+  width: 351px;
+  height: auto;
+  border-radius: 5%;
+}
+.grid .grid-imagen {
+  grid-row: 1/2;
+}
+.grid .grid-contacto .grid-contacto-info-nombre h1 {
+  width: auto;
+  height: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #4F4F4F;
+}
+
+/*# sourceMappingURL=style.css.map */
