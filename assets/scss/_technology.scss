@@ -1,0 +1,95 @@
+@import "variables";
+
+.technology {
+    margin-top: 30px;
+    width: 389px;
+    height: 284px;
+    background: #FFFFFF;
+    border-radius: 12px;    
+
+    .technology-tittle {
+        h2 {
+            width: 113px;
+            height: 22px;
+            left: 225px;
+            top: 2649px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;            
+            text-transform: uppercase;
+            color: #4F4F4F;
+        }
+    }
+
+    .technology-applied-now {
+
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 30% 70%;
+
+        div{
+            width: 82px;
+            height: 20px;
+            font-family: $fuente1;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #4F4F4F;    
+            margin-top: 10px;
+
+        }
+
+        .barra{
+            width: 222px;
+            height: 9px;
+            background: #C4C4C4;
+            border-radius: 12px; 
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 100%;
+          
+
+            .react-barra {
+                width: 50px;
+                height: 9px;
+                background: #2F80ED;
+                border-radius: 12px;   
+                place-self: center stretch;
+                margin: 0;
+            }
+
+            .js-barra {
+                width: 166px;
+                height: 9px;
+                background: #2F80ED;
+                border-radius: 12px;
+                place-self: center stretch;
+                margin: 0;    
+            }
+
+            .css-barra {
+                width: 186px;
+                height: 9px;
+                background: #2F80ED;
+                border-radius: 12px;
+                place-self: center stretch;
+                margin: 0;    
+            }
+
+            .vue-barra {
+                width: 50px;
+                height: 9px;
+                background: #2F80ED;
+                border-radius: 12px;
+                place-self: center stretch;
+                margin: 0;    
+            }
+    
+        }
+
+        
+    }
+}
