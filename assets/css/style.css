@@ -101,7 +101,7 @@ body {
   color: #4F4F4F;
   justify-self: start;
 }
-.gallery .gallery-description-tittle h2 {
+.gallery .gallery-description-tittle {
   width: 128px;
   height: 29px;
   font-family: "Montserrat", sans-serif;
@@ -433,6 +433,55 @@ body {
   line-height: 20px;
   color: #828282;
   margin-bottom: 20px;
+}
+
+.barra .barra-navegacion {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /*      display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 30px;
+          margin-bottom: 30px; */
+  position: relative;
+}
+.barra .barra-navegacion .barra-botones-selec {
+  background: #2F80ED;
+  border: 1px solid #2F80ED;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+.barra .barra-navegacion .barra-botones-click {
+  border: 1px solid #2F80ED;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #2F80ED;
+}
+.barra .barra-hand {
+  grid-column: 4/5;
+  align-self: center;
+  position: absolute;
+  top: 15%;
+  left: 15px;
+}
+.barra .barra-hand svg {
+  width: 36.76px;
+  height: 54.19px;
+}
+.barra .barra-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #4F4F4F;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
