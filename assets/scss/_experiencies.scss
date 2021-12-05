@@ -1,0 +1,86 @@
+.experiences {
+
+    .experiences-images {
+        img {
+            width: 84px;
+            height: 84px;    
+        }
+    }
+
+    .experiences-description-date {
+        width: 140px;
+        height: 17px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;    
+        margin-bottom: 20px;
+    }
+
+    .experiences-description-role {
+        width: 220px;
+        height: 40px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;  
+        margin-bottom: 30px;
+         
+    }
+
+    .experiences-description-general {
+        width: 273px;
+        height: 79px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #828282;
+        margin-right: 30px; 
+    }
+
+    .experiences-grid {
+        width: 417px;
+        height: 690px;
+        display: grid;
+        grid-template-columns: 84px 100%;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5px;
+        
+
+        .adidas {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .adidas-description {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .HYM {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .HYM-description {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        .nivea {
+            grid-column: 1/2;
+            grid-row: 3/4;    
+        }
+
+        .nivea-description {
+            grid-column: 2/3;
+            grid-row: 3/4
+        }
+    }
+}
