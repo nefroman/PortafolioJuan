@@ -25,11 +25,12 @@
     }
 
     .technology-applied-now {
-        width: 369px;
+        width: 280px;
         height: 284px;
         display: grid;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: 30% 70%;
+        gap: 10px;
   
         .technology-applied-grid {
             place-self: center stretch;
@@ -49,7 +50,7 @@
         }
 
         .barra{
-            width: 222px;
+            width: 190px;
             height: 9px;
             background: #C4C4C4;
             border-radius: 12px; 
@@ -69,7 +70,7 @@
             }
 
             .js-barra {
-                width: 166px;
+                width: 126px;
                 height: 9px;
                 background: #2F80ED;
                 border-radius: 12px;
@@ -78,7 +79,7 @@
             }
 
             .css-barra {
-                width: 186px;
+                width: 156px;
                 height: 9px;
                 background: #2F80ED;
                 border-radius: 12px;

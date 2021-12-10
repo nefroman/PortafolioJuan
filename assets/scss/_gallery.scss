@@ -1,8 +1,11 @@
 @import "variables";
 
 .gallery {
+
+    margin-bottom: 50px;
+
     .gallery-recipe img {
-        width: 351px;
+        width: 280px;
         height: 261px;
         border-radius: 12px;    
     }
@@ -37,7 +40,7 @@
     }
 
     .gallery-description-end p{
-        width: 351px;
+        width: 280px;
         height: 80px;
         font-family: $fuente1;
         font-style: normal;
@@ -50,7 +53,7 @@
     }
 
     .buttons {
-
+        width: 280px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
