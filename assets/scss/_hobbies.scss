@@ -1,5 +1,8 @@
 .hobbies {
 
+    margin-top: 50px;
+    margin-bottom: 50px;
+
     .hobbies-tittle {
         h2 {
             width: 240px;
@@ -24,6 +27,8 @@
     }
 
     .hobbies-gaming-description {
+        width: 280px;
+        
         h3 {
             width: 280px;
             height: 22px;
@@ -37,7 +42,7 @@
         }
 
         p {
-            width: 302px;;
+            width: 280px;;
             height: 20px;    
             font-family: Montserrat;
             font-style: normal;

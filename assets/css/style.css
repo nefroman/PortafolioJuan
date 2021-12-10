@@ -11,6 +11,12 @@ body {
   margin-left: 10px;
 }
 
+.grid {
+  width: 280px;
+}
+.grid .grid-imagen {
+  width: 280px;
+}
 .grid .grid-imagen img {
   width: 280px;
   height: 343px;
@@ -89,6 +95,7 @@ body {
   border-radius: 12px;
 }
 .gallery .gallery-technology {
+  width: 280px;
   display: grid;
   grid-template-columns: 20% 20% 20%;
   margin-bottom: 30px;
@@ -103,6 +110,9 @@ body {
   line-height: 20px;
   color: #4F4F4F;
   justify-self: start;
+}
+.gallery .gallery-description {
+  width: 280px;
 }
 .gallery .gallery-description-tittle {
   width: 128px;
@@ -261,7 +271,7 @@ body {
 }
 
 .blog {
-  width: 336px;
+  width: 280px;
   height: 400px;
   background: #FFFFFF;
   border-radius: 12px;
@@ -372,7 +382,7 @@ body {
   color: #828282;
 }
 .experiences .experiences-grid {
-  width: 350px;
+  width: 280px;
   height: 690px;
   display: grid;
   grid-template-columns: 84px 100%;
@@ -404,6 +414,10 @@ body {
   grid-row: 3/4;
 }
 
+.hobbies {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .hobbies .hobbies-tittle h2 {
   width: 240px;
   height: 29px;
@@ -421,6 +435,9 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.hobbies .hobbies-gaming-description {
+  width: 280px;
+}
 .hobbies .hobbies-gaming-description h3 {
   width: 280px;
   height: 22px;
@@ -433,7 +450,7 @@ body {
   margin-bottom: 20px;
 }
 .hobbies .hobbies-gaming-description p {
-  width: 302px;
+  width: 280px;
   height: 20px;
   font-family: Montserrat;
   font-style: normal;
@@ -444,7 +461,11 @@ body {
   margin-bottom: 20px;
 }
 
+.barra {
+  width: 280px;
+}
 .barra .barra-navegacion {
+  width: 280px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   /*      display: flex;

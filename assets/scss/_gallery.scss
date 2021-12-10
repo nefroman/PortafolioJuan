@@ -11,6 +11,7 @@
     }
 
     .gallery-technology {
+        width: 280px;
         display: grid;
         grid-template-columns: 20% 20% 20%;
         margin-bottom: 30px;
@@ -26,6 +27,10 @@
             color: #4F4F4F;
             justify-self: start;
         }
+    }
+
+    .gallery-description {
+        width: 280px;
     }
 
     .gallery-description-tittle {
